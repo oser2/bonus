@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css2?family=PT+Sans:wght@100;200;300;400;500;600;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Playfair+Display:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+}
+.container{
+    width: 360px;
+    font-family: 'PT Sans', sans-serif;
+    height: 2000px;
+    flex-shrink: 0;
+    background: white;
+    margin: 0 auto;
+}
+.main{
+    width: 360px;
+    height: 737px;
+    background-image: url(./assets/img/bg.png);
+}
+.header{
+    padding-inline: 27px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 113px;
+}
+.logo{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.logo-img{
+ display: flex;
+}
+.logo-text{
+    color: #FFF;
+    font-family: PT Serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.header-icon{
+    display: flex;
+}
+.content{
+    position: relative;
+}
+.text-main{
+    margin-left: 25px;
+    width: 305px;
+    height: 90px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.text2{
+    width: 305px;
+    margin-left: 31px;
+    margin-top: -21px;
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.text3{
+    width: 305px;
+    margin-top: 15px;
+    margin-left: 28px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.boots{
+    position: absolute;
+    top: 291px;
+    z-index: 1;
+}
+.but-wrapper{
+    display: flex;
+    justify-content: center;
+}
+button{
+    margin-top: 71px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 238px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #8E32C6;
+    position: absolute;
+    z-index: 2;
+}
