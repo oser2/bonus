@@ -21,9 +21,6 @@ body{
 .container{
     width: 360px;
     font-family: 'PT Sans', sans-serif;
-    height: 2000px;
-    flex-shrink: 0;
-    background: white;
     margin: 0 auto;
 }
 .main{
@@ -118,4 +115,10 @@ button{
     background: #8E32C6;
     position: absolute;
     z-index: 2;
+}
+.main2{
+    background: #de0f0f;
+    width: 460px;
+    height: 551px;
+    flex-shrink: 0;
 }
